@@ -1,0 +1,280 @@
+{
+    "fileContents": {
+        "about_me.json": {
+            "type": "file",
+            "content": {
+                "id": "0xYashBhati",
+                "alias": "Code Alchemist",
+                "location": {
+                    "planet": "Earth",
+                    "coordinates": "Udaipur, Rajasthan, India"
+                },
+                "occupation": "FullStack Developer | System Architect",
+                "bio": "Breaking loops, optimizing recursion, and architecting the future. A problem solver at heart, blending art with logic in the digital realm.",
+                "philosophy": "Clean Code | Minimalism | Performance | Innovation",
+                "hobbies": [
+                    "🔊 Singing",
+                    "🎸 Guitar Riffs & Licks",
+                    "🚀 Tinkering with New JS Libraries",
+                    "🎥 Content Creation for 'Thie Tech Guy'",
+                    "🕵️ Reverse Engineering Cool UI Components"
+                ],
+                "motto": "Perfection is not an act, it's a habit. Keep building. Keep evolving."
+            }
+        },
+        "company1.json": {
+            "type": "file",
+            "content": {
+                "name": "Ticketmaster",
+                "type": "Product/Entertainment",
+                "position": "Engineer 3",
+                "duration": "Aug2022 - Present",
+                "responsibilities": [
+                    "Develop and maintain complex UI functionalities for Ticketmaster's worldwide ticket booking system, impacting millions of users in production",
+                    "Collaborate with multiple teams across the world to develop and implement transfer, sell, upgrade, donate, and assign features",
+                    "Worked on adding Tickets to Apple and Google Wallet binding solutions to enhance ticketing experience",
+                    "Integrated multi-factor authentication (MFA) into critical flows, reducing unauthorized access incidents by 20%",
+                    "Optimized application performance by introducing code-splitting, lazy loading, and debouncing, reducing bundle size."
+                ],
+                "tech_stack": [
+                    "React",
+                    "JavaScript",
+                    "AWS",
+                    "CI/CD",
+                    "Microservices",
+                    "System Design",
+                    "Microfrontends"
+                ],
+                "achievements": [
+                    "Won R&R Award 2 Times for Creating and Designing Bulk Transfer and Assign Flow which are used by Millions of Users"
+                ]
+            }
+        },
+        "company2.json": {
+            "type": "file",
+            "content": {
+                "name": "Infosys",
+                "position": "Senior Software Engineer",
+                "account": [
+                    "Charles Schwab Corporation",
+                    "DHS"
+                ],
+                "duration": "Sep2019 - Jul2022",
+                "responsibilities": [
+                    "Worked on a Mutual Funds Bank Project handling Customer Shares invested for Internal Clients",
+                    "Developed RESTful APIs with Node.js, Express, and MongoDB for real-time data integration, optimized storage, and analytics",
+                    "Created Stored Procedures for retrieving Large Customer Data",
+                    "Developed Unix Scripts for creating Complex Format Files",
+                    "Utilized Bamboo for CI/CD pipeline automation, streamlining deployment processes and reducing release time."
+                ],
+                "tech_stack": [
+                    "React",
+                    "JavaScript",
+                    "Unix Scripts",
+                    "NodeJS",
+                    "Express",
+                    "MongoDB",
+                    "SQL"
+                ],
+                "achievements": [
+                    "Won Best Full Stack Developer Gracious Award at Infosys",
+                    "5 Times Insta Award Winner"
+                ]
+            }
+        },
+        "project1.json": {
+            "type": "file",
+            "content": {
+                "name": "Welfare Minds",
+                "description": "Developed and Deployed a MERN Stack CRM for Welfare Minds, a Mental Health Startup with 50+ active users.",
+                "keyFeatures": [
+                    "Revenue & Client Tracking: Real-time dashboards for tracking clients and revenue",
+                    "Appointment Scheduling: Efficient meeting management between clients and counselors",
+                    "Role-Based Access: Counsellor , Sales , Admin , User",
+                    "Client-Counselor Assignment: Easy assignment of clients to counselors",
+                    "Session Management: Track client sessions, including data and recordings"
+                ],
+                "summary": "The app was built to scale and optimize business workflows, ensuring seamless operations and growth.",
+                "tech_stack": [
+                    "React",
+                    "NodeJS",
+                    "Express",
+                    "MongoDB",
+                    "SQL",
+                    "Render"
+                ],
+                "project_link": "https://crm.welfareminds.com"
+            }
+        },
+        "project2.json": {
+            "type": "file",
+            "content": {
+                "name": "Context Switcher",
+                "description": "Easily switch between browser contexts like Work, Personal, and Study.",
+                "keyFeatures": [
+                    "Effortless organization and productivity boost with seamless context switching",
+                    "Quick tab grouping by context (Personal, Work, Others)",
+                    "Single shortcut switching between contexts",
+                    "Interactive Window Merging: Merge all tabs into a single window",
+                    "Perfect for users juggling multiple projects, research tasks, or interests",
+                    "Streamlined workspace management"
+                ],
+                "project_link": "https://chromewebstore.google.com/detail/context-switcher/jgjgjgjgjgjgjgjgjgjgjgjgjgjgjgjg"
+            }
+        },
+        "project3.json": {
+            "type": "file",
+            "content": {
+                "name": "Snap Sharing Platform",
+                "description": "A Snapchat-like application built with modern technologies.",
+                "keyFeatures": [
+                    "Interactive snap capture and viewing environment",
+                    "Built with React JS and Redux for responsive UI",
+                    "Secure Google Authentication integration",
+                    "Firebase backend infrastructure",
+                    "Real-time database and storage capabilities",
+                    "Secure snap storage and accessibility"
+                ],
+                "project_link": "https://snapchat-clone-6474f.web.app/"
+            }
+        },
+        "project4.json": {
+            "type": "file",
+            "content": {
+                "name": "Ecommerce Platform",
+                "description": "A comprehensive e-commerce solution with modern tech stack.",
+                "technologiesUsed": [
+                    "Next JS for server-side rendering",
+                    "React JS & Tailwind CSS for responsive UI",
+                    "Next Auth with Google Sign-In",
+                    "Firebase backend",
+                    "Stripe Payment Gateway"
+                ],
+                "keyFeatures": [
+                    "Complete e-commerce flow",
+                    "Product browsing and cart management",
+                    "Secure checkout process",
+                    "Real-time updates via webhooks",
+                    "Order confirmation system",
+                    "Optimized performance",
+                    "Responsive design"
+                ],
+                "project_link": "https://amazon-clone-new-yashbh.vercel.app/"
+            }
+        },
+        "technical.json": {
+            "type": "file",
+            "content": {
+                "languages": [
+                    "JavaScript",
+                    "TypeScript",
+                    "Python",
+                    "Java",
+                    "HTML",
+                    "CSS",
+                    "C",
+                    "C++"
+                ],
+                "frameworks_and_libraries": [
+                    "React",
+                    "Redux",
+                    "Angular",
+                    "Spring Boot",
+                    "NextJS",
+                    "MySQL",
+                    "GraphQL",
+                    "NodeJS",
+                    "Express.js",
+                    "Websockets",
+                    "Microfrontends"
+                ],
+                "tools": [
+                    "MongoDB",
+                    "Jira",
+                    "Confluence",
+                    "SourceTree",
+                    "Git",
+                    "Postman",
+                    "Trello",
+                    "Zeplin",
+                    "Cursor",
+                    "VsCode",
+                    "Gitlab",
+                    "OpenSearch",
+                    "Splunk"
+                ],
+                "other_skills": [
+                    "Data-Structures & Algorithms",
+                    "System Design",
+                    "Microfrontends",
+                    "RESTful APIs"
+                ]
+            }
+        },
+        "soft_skills.json": {
+            "type": "file",
+            "content": {
+                "title": "Soft Skills",
+                "skills": [
+                    "Team Leadership",
+                    "Problem Solving",
+                    "Communication",
+                    "Project Management",
+                    "Agile Methodology",
+                    "Time Management",
+                    "Mentoring"
+                ]
+            }
+        },
+        "contact.json": {
+            "type": "file",
+            "content": {
+                "title": "Let's Connect!",
+                "contactInfo": {
+                    "name": "Yash Bhati",
+                    "email": "yash.bhati58@gmail.com",
+                    "phone": "+91 6376741751",
+                    "linkedin": "https://www.linkedin.com/in/yash-bhati-820b35118/",
+                    "leetcode": "https://leetcode.com/u/yash_bhati/",
+                    "scaler": "https://www.scaler.com/academy/profile/12d298af246a"
+                },
+                "note": "Feel free to reach out for collaborations or opportunities!"
+            }
+        }
+    },
+    "fileSystem": {
+        "~yashbhati": {
+            "type": "dir",
+            "content": [
+                "about_me.json",
+                "contact.json",
+                "work_experience",
+                "skills",
+                "projects"
+            ]
+        },
+        "~yashbhati/work_experience": {
+            "type": "dir",
+            "content": [
+                "company1.json",
+                "company2.json"
+            ]
+        },
+        "~yashbhati/projects": {
+            "type": "dir",
+            "content": [
+                "welfare_minds.json",
+                "context_switcher.json",
+                "snap_sharing_platform.json",
+                "ecommerce_platform.json"
+            ]
+        },
+        "~yashbhati/skills": {
+            "type": "dir",
+            "content": [
+                "technical.json",
+                "soft_skills.json"
+            ]
+        }
+    }
+}
