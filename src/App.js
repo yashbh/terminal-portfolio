@@ -291,6 +291,24 @@ __   __    _    ____  _   _   ____  _   _    _  _____ ___
 
     const handleCommand = e => {
         if (e.key === "Enter") {
+            // Check if we have suggestions shown and a selection made
+            if (showSuggestions && tabIndex !== -1) {
+                e.preventDefault();
+                const selectedSuggestion = suggestions[tabIndex];
+                const [cmd, ...args] = inputValue.split(" ");
+
+                if (["cd", "cat"].includes(cmd)) {
+                    setInputValue(`${cmd} ${selectedSuggestion}`);
+                } else {
+                    setInputValue(selectedSuggestion + " ");
+                }
+
+                setSuggestions([]);
+                setShowSuggestions(false);
+                setTabIndex(-1);
+                return;
+            }
+
             const input = inputValue.trim();
             const [cmd, ...args] = input.split(" ");
 
@@ -443,7 +461,6 @@ __   __    _    ____  _   _   ____  _   _    _  _____ ___
                             value={inputValue}
                             onChange={e => {
                                 setInputValue(e.target.value);
-                                // Clear suggestions when input changes
                                 setSuggestions([]);
                                 setShowSuggestions(false);
                                 setTabIndex(-1);
@@ -451,10 +468,6 @@ __   __    _    ____  _   _   ____  _   _    _  _____ ___
                             onKeyDown={e => {
                                 if (e.key === "Enter") {
                                     handleCommand(e);
-                                    // Clear suggestions after command execution
-                                    setSuggestions([]);
-                                    setShowSuggestions(false);
-                                    setTabIndex(-1);
                                 } else if (e.key === "Tab") {
                                     handleTabCompletion(e);
                                 } else if (e.key === "ArrowUp" || e.key === "ArrowDown") {
