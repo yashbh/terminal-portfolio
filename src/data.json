@@ -82,7 +82,7 @@
                 ]
             }
         },
-        "project1.json": {
+        "welfare_minds.json": {
             "type": "file",
             "content": {
                 "name": "Welfare Minds",
@@ -106,7 +106,7 @@
                 "project_link": "https://crm.welfareminds.com"
             }
         },
-        "project2.json": {
+        "context_switcher.json": {
             "type": "file",
             "content": {
                 "name": "Context Switcher",
@@ -122,7 +122,7 @@
                 "project_link": "https://chromewebstore.google.com/detail/context-switcher/jgjgjgjgjgjgjgjgjgjgjgjgjgjgjgjg"
             }
         },
-        "project3.json": {
+        "snap_sharing_platform.json": {
             "type": "file",
             "content": {
                 "name": "Snap Sharing Platform",
@@ -138,7 +138,7 @@
                 "project_link": "https://snapchat-clone-6474f.web.app/"
             }
         },
-        "project4.json": {
+        "ecommerce_platform.json": {
             "type": "file",
             "content": {
                 "name": "Ecommerce Platform",
